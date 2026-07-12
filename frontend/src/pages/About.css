@@ -1,0 +1,121 @@
+.about-page {
+  padding-top: 4rem;
+}
+
+.about-header {
+  margin-bottom: 3rem;
+}
+
+.subtitle {
+  display: block;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 0.5rem;
+}
+
+.about-content {
+  margin-bottom: 4rem;
+}
+
+.main-story {
+  max-width: 900px;
+  margin: 0 auto;
+  border-top: 4px solid var(--primary);
+}
+
+.main-story p {
+  margin-bottom: 1.5rem;
+  font-size: 1.05rem;
+  color: var(--text-main);
+  line-height: 1.8;
+}
+
+.main-story p:last-child {
+  margin-bottom: 0;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.value-card {
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.value-icon {
+  margin-bottom: 1.5rem;
+}
+
+.value-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--white);
+}
+
+.value-card p {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.mt-5 {
+  margin-top: 5rem;
+}
+
+.section-title {
+  font-size: 2rem;
+  color: var(--white);
+  margin-bottom: 2rem;
+}
+
+.table-responsive {
+  overflow-x: auto;
+  padding: 0;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.custom-table th,
+.custom-table td {
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.custom-table th {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: var(--primary);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+
+.custom-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.custom-table tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.02);
+}
+
+.custom-table td:first-child {
+  font-weight: 500;
+  color: var(--text-muted);
+  width: 30%;
+}
+
+.key-personnel-section .custom-table td:first-child {
+  width: auto;
+}
+
+.custom-table td {
+  color: var(--text-main);
+}

@@ -1,0 +1,72 @@
+.equipment-page {
+  padding-top: 4rem;
+}
+
+.equipment-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.equipment-card {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  border-left: 3px solid transparent;
+  transition: all var(--transition-fast);
+}
+
+.equipment-card:hover {
+  border-left-color: var(--primary);
+  transform: translateX(5px);
+}
+
+.equipment-icon {
+  background: rgba(244, 196, 48, 0.1);
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.equipment-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex: 1;
+}
+
+.equipment-info h3 {
+  font-size: 1rem;
+  color: var(--white);
+  line-height: 1.4;
+}
+
+.qty-badge {
+  display: inline-block;
+  align-self: flex-start;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  color: var(--primary);
+  font-weight: 500;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.equipment-footer {
+  margin-top: 3rem;
+  background: linear-gradient(90deg, rgba(30, 30, 30, 0.8) 0%, rgba(30, 30, 30, 0.4) 100%);
+  border-left: 4px solid var(--primary);
+}
+
+.equipment-footer p {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
