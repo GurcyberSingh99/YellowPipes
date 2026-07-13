@@ -175,21 +175,21 @@ const About = () => {
       >
         <h2 className="section-title text-center">Company <span className="text-primary">Registrations</span></h2>
         <div className="documents-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem', maxWidth: '1000px', margin: '0 auto', padding: '1rem' }}>
-          
+
           <div className="glass-card text-center p-4" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <h3 className="text-primary" style={{ marginBottom: '1.5rem', fontSize: '1.25rem' }}>GST Certificate</h3>
-            <img 
-              src="/gst-paper.png" 
-              alt="GST Certificate - Yellow Pipes Engineering" 
+            <img
+              src="/gst-paper.png"
+              alt="GST Certificate - Yellow Pipes Engineering"
               style={{ maxWidth: '100%', height: 'auto', borderRadius: '12px', border: '1px solid rgba(255, 255, 255, 0.2)', boxShadow: '0 8px 32px rgba(0,0,0,0.15)' }}
             />
           </div>
 
           <div className="glass-card text-center p-4" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <h3 className="text-primary" style={{ marginBottom: '1.5rem', fontSize: '1.25rem' }}>MSME Registration</h3>
-            <img 
-              src="/msme-paper.png" 
-              alt="MSME Registration - Yellow Pipes Engineering" 
+            <img
+              src="/msme-paper.png"
+              alt="MSME Registration - Yellow Pipes Engineering"
               style={{ maxWidth: '100%', height: 'auto', borderRadius: '12px', border: '1px solid rgba(255, 255, 255, 0.2)', boxShadow: '0 8px 32px rgba(0,0,0,0.15)' }}
             />
           </div>
@@ -220,7 +220,7 @@ const About = () => {
               <tr>
                 <td>1</td>
                 <td>Mr. Yugbadal Singh</td>
-                <td>Project Manager</td>
+                <td>Managing Director</td>
                 <td>Masters in Administration</td>
                 <td>10 years</td>
               </tr>
@@ -265,6 +265,13 @@ const About = () => {
                 <td>Helper</td>
                 <td>Matric</td>
                 <td>15 years</td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td>Mr. Sumit Kumar</td>
+                <td>Superviser</td>
+                <td>Bachelors of Arts</td>
+                <td>5 years</td>
               </tr>
             </tbody>
           </table>
