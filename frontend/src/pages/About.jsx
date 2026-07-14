@@ -29,7 +29,7 @@ const About = () => {
       >
         <div className="glass-card main-story">
           <p>
-            <strong>YELLOW PIPES ENGINEERING (YPE)</strong> was incorporated on 26th February 2022 with the aim of providing innovative and sustainable construction services to the Hydrocarbon Sector, specifically to the City Gas Distribution (CGD) sector.
+            <strong>YELLOW PIPES ENGINEERING (YPE)</strong> was incorporated on 22th February 2022 with the aim of providing innovative and sustainable construction services to the Hydrocarbon Sector, specifically to the City Gas Distribution (CGD) sector.
           </p>
           <p>
             With the ever-growing demand of experienced and spirited contractors, and the Government of India (GOI) thrust over the last few years in developing a pan-India Natural Gas Network up to Last Mile Connectivity, Yellow Pipes Engineering intends to venture into the construction arena to provide a single-stop solution for all CGD construction activities under one roof.
@@ -131,7 +131,7 @@ const About = () => {
               </tr>
               <tr>
                 <td>DESIGNATION</td>
-                <td>AUTHORISED PARTNER</td>
+                <td>MANAGING DIRECTOR</td>
               </tr>
               <tr>
                 <td>CONTACT NO.</td>
@@ -146,7 +146,7 @@ const About = () => {
                 <td>AACFY9760B</td>
               </tr>
               <tr>
-                <td>GSTN No.</td>
+                <td>PUNJAB GSTN No.</td>
                 <td>03AACFY9760B1Z9</td>
               </tr>
               <tr>
@@ -232,13 +232,6 @@ const About = () => {
                 <td>40 years</td>
               </tr>
               <tr>
-                <td>3</td>
-                <td>Mrs. Lakhvinder Baluja</td>
-                <td>Manager - Finance</td>
-                <td>Chartered Accountant</td>
-                <td>18 years</td>
-              </tr>
-              <tr>
                 <td>4</td>
                 <td>Mr. Sanchit Lamba</td>
                 <td>Accountant / Billing Engineer</td>
@@ -248,7 +241,7 @@ const About = () => {
               <tr>
                 <td>5</td>
                 <td>Mr. Farooq Jamal</td>
-                <td>Supervisor</td>
+                <td>Billing</td>
                 <td>B. Tech. - Mechanical</td>
                 <td>6 years</td>
               </tr>
@@ -273,6 +266,21 @@ const About = () => {
                 <td>Bachelors of Arts</td>
                 <td>5 years</td>
               </tr>
+              <tr>
+                <td>8</td>
+                <td>Mr. Arshdeep Singh</td>
+                <td>Manager</td>
+                <td>Bachelors of Arts</td>
+                <td>5 years</td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td>Mr. Sumit Kumar</td>
+                <td>Superviser</td>
+                <td>Bachelors of Arts</td>
+                <td>5 years</td>
+              </tr>
+
             </tbody>
           </table>
         </div>
