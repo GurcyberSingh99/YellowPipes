@@ -174,13 +174,22 @@ const About = () => {
         transition={{ delay: 0.25 }}
       >
         <h2 className="section-title text-center">Company <span className="text-primary">Registrations</span></h2>
-        <div className="documents-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem', maxWidth: '1000px', margin: '0 auto', padding: '1rem' }}>
+        <div className="documents-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem', maxWidth: '1200px', margin: '0 auto', padding: '1rem' }}>
 
           <div className="glass-card text-center p-4" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-            <h3 className="text-primary" style={{ marginBottom: '1.5rem', fontSize: '1.25rem' }}>GST Certificate</h3>
+            <h3 className="text-primary" style={{ marginBottom: '1.5rem', fontSize: '1.25rem' }}>GST Certificate (Punjab)</h3>
             <img
-              src="/gst-paper.png"
-              alt="GST Certificate - Yellow Pipes Engineering"
+              src="/gst-punjab.png"
+              alt="GST Certificate Punjab - Yellow Pipes Engineering"
+              style={{ maxWidth: '100%', height: 'auto', borderRadius: '12px', border: '1px solid rgba(255, 255, 255, 0.2)', boxShadow: '0 8px 32px rgba(0,0,0,0.15)' }}
+            />
+          </div>
+
+          <div className="glass-card text-center p-4" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+            <h3 className="text-primary" style={{ marginBottom: '1.5rem', fontSize: '1.25rem' }}>GST Certificate (Haryana)</h3>
+            <img
+              src="/gst-haryana.png"
+              alt="GST Certificate Haryana - Yellow Pipes Engineering"
               style={{ maxWidth: '100%', height: 'auto', borderRadius: '12px', border: '1px solid rgba(255, 255, 255, 0.2)', boxShadow: '0 8px 32px rgba(0,0,0,0.15)' }}
             />
           </div>
@@ -267,20 +276,12 @@ const About = () => {
                 <td>5 years</td>
               </tr>
               <tr>
-                <td>8</td>
+                <td>9</td>
                 <td>Mr. Arshdeep Singh</td>
                 <td>Manager</td>
                 <td>Bachelors of Arts</td>
-                <td>5 years</td>
+                <td>2 years</td>
               </tr>
-              <tr>
-                <td>8</td>
-                <td>Mr. Sumit Kumar</td>
-                <td>Superviser</td>
-                <td>Bachelors of Arts</td>
-                <td>5 years</td>
-              </tr>
-
             </tbody>
           </table>
         </div>
